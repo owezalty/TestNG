@@ -17,7 +17,6 @@ public class Day13_FirstDriverClass {
         Driver.getDriver().get(ConfigurationReader.getProperty("amazon_url"));
         Driver.getDriver().navigate().to(ConfigurationReader.getProperty("google_url"));
 
-
         System.out.println("Google Title : " + Driver.getDriver().getTitle());
         Driver.closeDriver();
 
